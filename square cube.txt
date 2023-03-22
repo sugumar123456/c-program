@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+    float x;
+    printf("enter the number:");
+    scanf("\n%f",&x);
+    {
+        printf("enter the square number:\n%f",(x*x));
+        printf("enter the cube number:\n%f",(x*x*x));
+    }
+    return 0;
+}
